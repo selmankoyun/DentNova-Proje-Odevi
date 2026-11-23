@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #  DentNova — Diş Kliniği Online Randevu Sistemi
 
 DentNova, bir ağız ve diş sağlığı kliniği için geliştirilmiş **online randevu yönetim sistemi**dir. Hastalar doktor seçip uygun saatlere randevu alabilir; doktorlar randevuları yönetebilir; yöneticiler tüm sistemi kontrol edebilir.
@@ -183,3 +184,6 @@ Bu proje yalnızca ön yüz (frontend) içerir. Kimlik doğrulama ve yetkilendir
 ##  Lisans
 
 Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. *(Lisans dosyasını eklemeyi unutmayın.)*
+=======
+# DentNova-Proje-Odevi
+>>>>>>> 9d680244271313053aa042562b16f0c8091ca50d
