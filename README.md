@@ -179,10 +179,3 @@ Bu proje yalnızca ön yüz (frontend) içerir. Kimlik doğrulama ve yetkilendir
 5. Pull Request açın
 
 ---
-
-##  Lisans
-
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. *(Lisans dosyasını eklemeyi unutmayın.)*
-=======
-# DentNova-Proje-Odevi
->>>>>>> 9d680244271313053aa042562b16f0c8091ca50d
