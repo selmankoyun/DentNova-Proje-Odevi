@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kayıt Ol | DentNova</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="register">
+  <div id="app">
+    <div class="auth-wrap">
+      <div class="auth-card">
+        <div class="auth-header">
+          <div class="avatar" id="reg-avatar"></div>
+          <div>
+            <h2>Hesap oluşturun</h2>
+            <div class="sub">Birkaç saniyede randevu almaya başlayın</div>
+          </div>
+        </div>
+        <div id="reg-error"></div>
+        <form id="register-form" novalidate>
+          <div class="field">
+            <label for="rg-name">Ad Soyad</label>
+            <input class="input" id="rg-name" name="name" placeholder="Ad Soyad" required>
+          </div>
+          <div class="field">
+            <label for="rg-email">E-posta</label>
+            <input class="input" id="rg-email" name="email" type="email" placeholder="ornek@mail.com" required>
+          </div>
+          <div class="field">
+            <label for="rg-phone">Telefon</label>
+            <input class="input" id="rg-phone" name="phone" placeholder="05xx xxx xx xx">
+          </div>
+          <div class="field-row">
+            <div class="field"><label for="rg-pass">Şifre</label>
+              <input class="input" id="rg-pass" name="password" type="password" placeholder="En az 6 karakter" required></div>
+            <div class="field"><label for="rg-pass2">Şifre (tekrar)</label>
+              <input class="input" id="rg-pass2" name="password2" type="password" placeholder="••••••••" required></div>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Kayıt Ol</button>
+        </form>
+        <div class="form-note">Zaten hesabınız var mı? <a href="login.html">Giriş yapın</a></div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/core/config.js"></script>
+  <script src="assets/core/icons.js"></script>
+  <script src="assets/core/utils.js"></script>
+  <script src="assets/core/store.js"></script>
+  <script src="assets/core/ui.js"></script>
+  <script src="assets/core/booking.js"></script>
+  <script src="assets/app.js"></script>
+  <script src="assets/pages/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giriş Yap | DentNova</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="login">
+  <div id="app">
+    <div class="auth-wrap">
+      <div class="auth-card">
+        <div class="auth-header">
+          <div class="avatar" id="login-avatar"></div>
+          <div>
+            <h2>Tekrar hoş geldiniz</h2>
+            <div class="sub">Hesabınıza giriş yapın</div>
+          </div>
+        </div>
+        <div id="login-error"></div>
+        <form id="login-form" novalidate>
+          <div class="field">
+            <label for="li-email">E-posta</label>
+            <input class="input" id="li-email" name="email" type="email" placeholder="ornek@mail.com" required>
+          </div>
+          <div class="field">
+            <label for="li-pass">Şifre</label>
+            <input class="input" id="li-pass" name="password" type="password" placeholder="••••••••" required>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Giriş Yap</button>
+        </form>
+        <div class="form-note">Hesabınız yok mu? <a href="register.html">Kayıt olun</a></div>
+        <div class="alert ok demo-alert">
+          <span><b>Demo:</b> admin@dentnova.com / admin123 · elif@dentnova.com / 123456 · ahmet@ornek.com / 123456</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/core/config.js"></script>
+  <script src="assets/core/icons.js"></script>
+  <script src="assets/core/utils.js"></script>
+  <script src="assets/core/store.js"></script>
+  <script src="assets/core/ui.js"></script>
+  <script src="assets/core/booking.js"></script>
+  <script src="assets/app.js"></script>
+  <script src="assets/pages/login.js"></script>
+</body>
+</html>
